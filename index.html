@@ -1,25 +1,163 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>IronMind - Gizlilik Politikası</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
-    h1 { color: #00E5A0; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IronMind — Gizlilik Politikası</title>
+<style>
+  :root {
+    --bg: #0D1B2A;
+    --card: #112233;
+    --border: #1A3044;
+    --accent: #00E5A0;
+    --text: #CCE8DC;
+    --muted: #6E9A8A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 40px 16px 80px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .brand {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 8px;
+  }
+  .mark {
+    width: 32px; height: 32px; border-radius: 9px;
+    background: #003D2A; border: 1px solid rgba(0,229,160,.35);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent); font-weight: 700; font-size: 15px;
+  }
+  .brand span {
+    color: var(--accent); font-weight: 700; letter-spacing: 1px; font-size: 15px;
+  }
+  h1 { font-size: 26px; margin: 24px 0 4px; color: #fff; letter-spacing: -.3px; }
+  h2 {
+    font-size: 15px; margin: 34px 0 10px; color: var(--accent);
+    letter-spacing: .4px;
+  }
+  .date { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  .lead {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 18px 20px; margin: 22px 0 10px;
+  }
+  .lead strong { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 56px 0 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+  @media (max-width: 520px) { body { padding: 28px 16px 60px; } h1 { font-size: 22px; } }
+</style>
 </head>
 <body>
-  <h1>IronMind - Gizlilik Politikası</h1>
-  <p>Son güncelleme: Mayıs 2026</p>
-  <h2>Toplanan Veriler</h2>
-  <p>IronMind uygulaması hiçbir kişisel veriyi sunucularımıza göndermez. Tüm veriler yalnızca cihazınızda saklanır.</p>
-  <h2>Ekran Süresi Verisi</h2>
-  <p>Uygulama, sosyal medya kullanım sürelerinizi görüntülemek için Android UsageStats API'sini kullanır. Bu veriler yalnızca cihazınızda işlenir.</p>
-  <h2>Kişisel Bilgiler</h2>
-  <p>Uygulama herhangi bir hesap, e-posta veya kimlik bilgisi gerektirmez.</p>
-  <h2>Üçüncü Taraf Servisler</h2>
-  <p>Uygulama herhangi bir üçüncü taraf analitik veya reklam servisi kullanmaz.</p>
-  <h2>Privacy Policy (English)</h2>
-  <p>IronMind does not collect, store, or share any personal data. All data remains on your device. We use Android UsageStats API solely to display your screen time within the app. No data is transmitted to external servers.</p>
+<div class="wrap">
+
+  <div class="brand">
+    <div class="mark">IM</div>
+    <span>IRONMIND</span>
+  </div>
+
+  <h1>Gizlilik Politikası</h1>
+  <div class="date">Son güncelleme: 12 Kasım 2026</div>
+
+  <div class="lead">
+    <p style="margin:0"><strong>Kısaca:</strong> IronMind hiçbir kişisel veri toplamaz, saklamaz veya üçüncü taraflarla paylaşmaz. Uygulamanın sunucusu yoktur. Girdiğiniz her şey yalnızca kendi cihazınızda kalır.</p>
+  </div>
+
+  <h2>TOPLANAN VERİLER</h2>
+  <p>IronMind sizden hiçbir veri toplamaz. Hesap oluşturmanız gerekmez, e-posta adresinizi istemeyiz, kimliğinizi tespit edecek hiçbir bilgi talep etmeyiz.</p>
+  <p>Uygulamada oluşturduğunuz tüm içerik — görev işaretlemeleri, hedefleriniz, serileriniz, takvim notlarınız, isminiz ve ilerleme fotoğraflarınız — yalnızca cihazınızın yerel depolama alanında tutulur. Bu veriler hiçbir sunucuya gönderilmez.</p>
+
+  <h2>FOTOĞRAFLAR VE KAMERA</h2>
+  <p>İlerleme fotoğrafı özelliğini kullanırsanız uygulama kamera ve fotoğraf kitaplığı erişimi ister. Çekilen veya seçilen fotoğraflar yalnızca uygulamanın kendi özel klasöründe saklanır; cihazınızın galerisine yazılmaz, hiçbir yere yüklenmez ve kimseyle paylaşılmaz.</p>
+  <p>Bu izinleri vermemeyi seçebilirsiniz; uygulamanın geri kalanı normal şekilde çalışmaya devam eder.</p>
+
+  <h2>BİLDİRİMLER</h2>
+  <p>Hatırlatma bildirimleri tamamen cihaz üzerinde oluşturulur ve zamanlanır. Bildirim göndermek için hiçbir sunucu veya üçüncü taraf servis kullanılmaz. Bildirimleri uygulama ayarlarından istediğiniz zaman kapatabilirsiniz.</p>
+
+  <h2>PAYLAŞIM</h2>
+  <p>"Serini paylaş" özelliğini kullandığınızda uygulama bir görsel oluşturur ve cihazınızın sistem paylaşım menüsünü açar. Bu görseli nereye göndereceğinize siz karar verirsiniz. IronMind paylaşım yaptığınız yeri veya içeriği kaydetmez.</p>
+
+  <h2>YEDEKLEME</h2>
+  <p>Verilerinizi dışa aktarmayı seçerseniz uygulama bir yedek dosyası oluşturur ve nereye kaydedeceğinizi size sorar. Bu dosya üzerinde tam kontrol sizdedir; uygulama onun bir kopyasını tutmaz ve hiçbir yere göndermez.</p>
+
+  <h2>ÜÇÜNCÜ TARAFLAR</h2>
+  <p>IronMind analiz araçları, reklam ağları veya takip teknolojileri kullanmaz. Davranışınızı izleyen hiçbir yazılım geliştirme kiti (SDK) içermez. Reklam gösterilmez.</p>
+
+  <h2>ANDROID SÜRÜMÜ</h2>
+  <p>Android sürümünde, izin vermeniz halinde uygulama sosyal medya uygulamalarında geçirdiğiniz süreyi okuyabilir. Bu bilgi yalnızca cihazınızda işlenir ve ekranda gösterilir; hiçbir yere gönderilmez ve saklanmaz. iOS sürümünde bu özellik bulunmamaktadır.</p>
+
+  <h2>VERİLERİNİZİ SİLME</h2>
+  <p>Uygulamayı cihazınızdan kaldırdığınızda fotoğraflarınız dahil tüm verileriniz silinir. Bu işlem geri alınamaz. Verilerinizi korumak isterseniz silmeden önce yedek almanızı öneririz.</p>
+
+  <h2>ÇOCUKLARIN GİZLİLİĞİ</h2>
+  <p>IronMind çocuklara yönelik değildir ve hiç kimseden veri toplamadığı için çocuklardan da veri toplamaz.</p>
+
+  <h2>DEĞİŞİKLİKLER</h2>
+  <p>Bu politika güncellenirse bu sayfadaki tarih değiştirilir. Uygulamanın veri toplama davranışını değiştirecek bir güncelleme yapılırsa bu durum uygulama içinde bildirilir.</p>
+
+  <h2>İLETİŞİM</h2>
+  <p>Sorularınız için: <a href="mailto:E-POSTA-ADRESIN">E-POSTA-ADRESIN</a></p>
+
+  <hr>
+
+  <div class="brand" style="margin-top:40px">
+    <div class="mark">IM</div>
+    <span>IRONMIND</span>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <div class="date">Last updated: 12 November 2026</div>
+
+  <div class="lead">
+    <p style="margin:0"><strong>In short:</strong> IronMind collects no personal data, stores nothing about you, and shares nothing with third parties. The app has no server. Everything you enter stays on your own device.</p>
+  </div>
+
+  <h2>DATA WE COLLECT</h2>
+  <p>IronMind collects no data from you. You do not create an account, we do not ask for your email address, and we request no information that could identify you.</p>
+  <p>Everything you create in the app — task check-ins, goals, streaks, calendar notes, your name and progress photos — is kept only in your device's local storage. None of it is sent to any server.</p>
+
+  <h2>PHOTOS AND CAMERA</h2>
+  <p>If you use the progress photo feature, the app asks for camera and photo library access. Photos you take or select are stored only in the app's own private folder. They are never written to your device's gallery, never uploaded anywhere, and never shared with anyone.</p>
+  <p>You may decline these permissions; the rest of the app continues to work normally.</p>
+
+  <h2>NOTIFICATIONS</h2>
+  <p>Reminder notifications are created and scheduled entirely on your device. No server or third-party service is used to deliver them. You can turn notifications off at any time in the app's settings.</p>
+
+  <h2>SHARING</h2>
+  <p>When you use the "share your streak" feature, the app generates an image and opens your device's system share menu. You decide where it goes. IronMind does not record where you shared or what you shared.</p>
+
+  <h2>BACKUPS</h2>
+  <p>If you choose to export your data, the app creates a backup file and asks you where to save it. You have full control over that file. The app keeps no copy of it and sends it nowhere.</p>
+
+  <h2>THIRD PARTIES</h2>
+  <p>IronMind uses no analytics tools, no advertising networks and no tracking technologies. It contains no software development kits (SDKs) that monitor your behaviour. No ads are shown.</p>
+
+  <h2>ANDROID VERSION</h2>
+  <p>On Android, with your permission, the app can read how long you spend in social media apps. This information is processed on your device and displayed on screen only; it is never transmitted or stored elsewhere. This feature is not present in the iOS version.</p>
+
+  <h2>DELETING YOUR DATA</h2>
+  <p>Removing the app from your device deletes all of your data, including your photos. This cannot be undone. If you want to keep your data, export a backup before deleting.</p>
+
+  <h2>CHILDREN'S PRIVACY</h2>
+  <p>IronMind is not directed at children, and since it collects no data from anyone, it collects no data from children either.</p>
+
+  <h2>CHANGES</h2>
+  <p>If this policy is updated, the date on this page will change. If an update ever changes how the app handles data, you will be informed inside the app.</p>
+
+  <h2>CONTACT</h2>
+  <p>Questions: <a href="mailto:E-POSTA-ADRESIN">E-POSTA-ADRESIN</a></p>
+
+  <footer>IronMind · MAM Studios</footer>
+
+</div>
 </body>
 </html>
